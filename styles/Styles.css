@@ -1,3 +1,67 @@
-header nav{
-   
+@font-face {
+    font-family: "bbNeue";
+    src: url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+}
+
+@font-face {
+    font-family: "Open-Sans";
+    src: url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+}
+
+.grid-layout {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+
+/****Cabeçalho****/
+
+header {
+    border: 1px solid #F9003D;
+    background-color: #F9003D;
+    height: 60px;
+    width: 100%;
+}
+
+
+/* flexbox header */
+
+header .header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    font-size: 18px;
+    color: white;
+    font-family: "bbNeue";
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+/****Main****/
+
+main {
+    height: 2200px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+main .banner-1 {
+    height: 740px;
+    width: 100%;
 }
